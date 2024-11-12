@@ -10,9 +10,6 @@ use Spatie\Permission\Traits\HasPermission;
 
 class GeneralSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
         $role_permission  = Role::create([
